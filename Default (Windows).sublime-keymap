@@ -1,0 +1,6 @@
+[
+  { "keys": ["ctrl+shift+d"], "command": "duplicate_line" },
+  { "keys": ["ctrl+alt+a"], "command": "alignment" },
+  { "keys": ["ctrl+["], "command": "do_end_to_brace" },
+  { "keys": ["ctrl+]"], "command": "brace_to_do_end" }
+]

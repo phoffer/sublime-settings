@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+======================================================================
+blue-dark
+======================================================================
+A Sublime Text / Textmate theme.
+Copyright (c) 2013 Paul Hoffer.
+Released under the MIT License <http://opensource.org/licenses/MIT>
+======================================================================
+Template adapted from Dayle Rees, https://github.com/daylerees/colour-schemes
+======================================================================
+-->
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>blue-dark</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#010009</string>
+				<key>caret</key>
+				<string>#FFFFFF</string>
+				<key>foreground</key><!--  text color -->
+				<string>#aec2e0</string>
+				<key>invisibles</key><!--  ??? -->
+				<string>#3B3A32</string>
+				<key>lineHighlight</key><!--  gutter line bg -->
+				<!-- <string>#1b232c</string> -->
+				<string>#183c66</string>
+				<key>selection</key><!-- selected text bg -->
+				<!-- <string>#183c66</string> -->
+				<string>#050030</string>
+				<key>findHighlight</key><!--  find selection bg -->
+				<string>#FFE792</string>
+				<key>findHighlightForeground</key><!-- find selection text -->
+				<string>#000000</string>
+				<key>selectionBorder</key><!-- selected text border -->
+				<string>#183c66</string>
+				<key>activeGuide</key><!-- ??? -->
+				<string>#9D550FB0</string>
+
+				<key>bracketsForeground</key><!-- bracket match underline -->
+				<string>#F8F8F2A5</string>
+				<key>bracketsOptions</key><!-- only option = underline? -->
+				<string>underline</string>
+
+				<key>bracketContentsForeground</key><!-- bracket underline when caret in contents -->
+				<string>#F8F8F2A5</string>
+				<key>bracketContentsOptions</key>
+				<string>underline</string>
+
+				<key>tagsOptions</key>
+				<string>stippled_underline</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Comment</string>
+			<key>scope</key>
+			<string>comment</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<!-- <string>#324357</string> -->
+				<!-- <string>#eddd3d</string> old style -->
+				<string>#567395</string>
+				<!-- <string>#235896</string> -->
+				<!-- <string>#c6daf2</string> -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String</string><!-- actual string -->
+			<key>scope</key>
+			<string>string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<!-- <string>#FF410D</string> -->
+				<string>#8D36CA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Number</string>
+			<key>scope</key>
+			<string>constant.numeric</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<!-- <string>#C7F026</string> odd yellow green color -->
+				<!-- <string>#FFB20D</string> -->
+				<string>#95CC5E</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key><!-- ruby: true/false -->
+			<string>Built-in constant</string>
+			<key>scope</key>
+			<string>constant.language</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<!-- <string>#FFB20D</string> -->
+				<!-- <string>#e80e0d</string> old style red  -->
+				<string>#F36600</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key><!-- symbols and escaped characters -->
+			<string>User-defined constant</string>
+			<key>scope</key>
+			<string>constant.character, constant.other</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<!-- <string>#FFB20D</string> -->
+				<string>#FFB20D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key><!-- ruby: constants, globals, |block var|, << self -->
+			<string>Variable</string>
+			<key>scope</key>
+			<string>variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<!-- <string>#d0dfe6</string> -->
+				<!-- <string>#F36600</string>old style orange -->
+				<string>#e80e0d</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key><!--  language keywords, */-+=&<> unless operator defined -->
+			<string>Keyword</string>
+			<key>scope</key>
+			<string>keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<!-- <string>#748aa6</string> -->
+				<string>#428bdd</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key><!--  ??? -->
+			<string>Storage</string>
+			<key>scope</key>
+			<string>storage</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<!-- <string>#ffffff</string> -->
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key><!--  ??? -->
+			<string>Storage type</string>
+			<key>scope</key>
+			<string>storage.type</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<!-- <string>#267fb5</string> -->
+				<string>#267fb5</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key><!--  class name onced fixed -->
+			<string>Class name</string>
+			<key>scope</key>
+			<!-- <string>entity.name.class</string> -->
+			<string>entity.name</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>underline</string>
+				<key>foreground</key>
+				<!-- <string>#F79D1E</string> -->
+				<string>#f500aa</string>
+				<!-- <string>#FF0F97</string> -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key><!--  inherited class '< Klass' -->
+			<string>Inherited class</string>
+			<key>scope</key>
+			<string>entity.other.inherited-class</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic underline</string>
+				<key>foreground</key>
+				<!-- <string>#F79D1E</string> -->
+				<!-- <string>#f500aa</string> old style pink -->
+				<string>#e80e0d</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key><!--  methods -->
+			<string>Function name</string>
+			<key>scope</key>
+			<string>entity.name.function</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<!-- <string>#FFB20D</string> -->
+				<string>#0dcc11</string><!--  green -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key><!--  method args -->
+			<string>Function argument</string>
+			<key>scope</key>
+			<string>variable.parameter</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<!-- <string>#95CC5E</string> -->
+				<string>#95CC5E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key><!--  xml tags -->
+			<string>Tag name</string>
+			<key>scope</key>
+			<string>entity.name.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<!-- <string>#267fb5</string> -->
+				<string>#267fb5</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key><!--  guessed but not verified -->
+			<string>Tag attribute</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<!-- <string>#FFB20D</string> -->
+				<string>#FFB20D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key><!--  ??? -->
+			<string>Library function</string>
+			<key>scope</key>
+			<string>support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<!-- <string>#267fb5</string> -->
+				<string>#267fb5</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key><!--  ??? -->
+			<string>Library constant</string>
+			<key>scope</key>
+			<string>support.constant</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<!-- <string>#267fb5</string> -->
+				<string>#267fb5</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key><!--  in-line classes Time.now => 'Time' -->
+			<string>Library class/type</string>
+			<key>scope</key>
+			<string>support.type, support.class</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>background</key>
+				<string></string>
+				<key>foreground</key>
+				<!-- <string>#267fb5</string> -->
+				<!-- <string>#FF0F97</string> old pink style -->
+				<string>#f500aa</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key><!--  ??? didn't have color at first -->
+			<string>Library variable</string>
+			<key>scope</key>
+			<string>support.other.variable</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#0f0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key><!--  ??? -->
+			<string>Invalid</string>
+			<key>scope</key>
+			<string>invalid</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#00A8C6</string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#F8F8F0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Invalid deprecated</string>
+			<key>scope</key>
+			<string>invalid.deprecated</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#8FBE00</string>
+				<key>foreground</key>
+				<string>#F8F8F0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key><!--  json string -->
+			<string>JSON String</string>
+			<key>scope</key>
+			<string>meta.structure.dictionary.json string.quoted.double.json</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>foreground</key>
+				<!-- <string>#CFCFC2</string> -->
+				<string>#8D36CA</string>
+				<!-- <string>#95CC5E</string> -->
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>diff.header</string>
+			<key>scope</key>
+			<string>meta.diff, meta.diff.header</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#75715E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff.deleted</string>
+			<key>scope</key>
+			<string>markup.deleted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00A8C6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff.inserted</string>
+			<key>scope</key>
+			<string>markup.inserted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A6E22E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff.changed</string>
+			<key>scope</key>
+			<string>markup.changed</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E6DB74</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>scope</key>
+			<string>constant.numeric.line-number.find-in-files - match</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8FBE00A0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>entity.name.filename.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E6DB74</string>
+			</dict>
+		</dict>
+
+		<!-- stray items from elsewhere -->
+		<dict><!--  works in ST 2 -->
+			<key>name</key><!--  */-+=&<> || && and or -->
+			<string>Operator</string>
+			<key>scope</key>
+			<string>keyword.operator</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#00f</string>
+			</dict>
+		</dict>
+
+	</array>
+	<key>uuid</key>
+	<string>6BC5629A-D5D9-4337-9674-6355EB039ADB</string>
+</dict>
+</plist>
