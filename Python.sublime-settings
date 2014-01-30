@@ -1,0 +1,8 @@
+{
+  "word_wrap": true,
+  // "font_face": "Lucida Console",
+  "font_size": 11, // for high res screens
+  "font_size": 9, // for acer laptop
+  "translate_tabs_to_spaces": true,
+  "tab_size": 4
+}

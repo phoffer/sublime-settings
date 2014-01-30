@@ -3,11 +3,12 @@
 	"auto_complete_commit_on_tab": true,
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/User/blue-json.tmTheme",
+	"theme": "Paul - Spacegray.sublime-theme",
 	"draw_minimap_border": true,
 	"draw_white_space": "none",
 	"ensure_newline_at_eof_on_save": true,
-	"font_size": 13,
-	"highlight_line": false,
+	"font_size": 10,
+	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Vintage"
