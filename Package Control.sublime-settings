@@ -2,7 +2,15 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"GitGutter",
+		"Glue",
+		"Markdown Extended",
+		"Modific",
+		"Ruby Block Converter",
+		"Sass",
+		"SublimeGit",
 		"Sublimerge Pro",
+		"Terminal",
 		"Theme - Spacegray"
 	]
 }

@@ -3,21 +3,23 @@
 	"auto_complete_commit_on_tab": true,
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/User/blue-json.tmTheme",
-	"theme": "Paul - Spacegray.sublime-theme",
+	"detect_slow_plugins": false,
 	"draw_minimap_border": true,
 	"draw_white_space": "none",
-	"ensure_newline_at_eof_on_save": true,
-	"font_size": 10,
+	"ensure_newline_at_eof_on_save": false,
+	"font_size": 14,
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"Modific",
+		"EasyDiff",
 		"Vintage"
 	],
 	"line_numbers": true,
 	"line_padding_top": 1,
-	"scroll_past_end": false,
 	"shift_tab_unindent": true,
 	"tab_size": 2,
+	"theme": "Spacegray.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": false
 }

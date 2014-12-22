@@ -1,0 +1,9 @@
+{
+	"color_scheme": "Packages/User/blue-json.tmTheme",
+	"extensions":
+	[
+		"md", "mdown", "markdown"
+	],
+	"trim_trailing_white_space_on_save": false,
+  "tab_size": 4
+}
