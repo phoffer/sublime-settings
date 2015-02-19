@@ -1,4 +1,7 @@
 {
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"Alignment",
@@ -6,6 +9,7 @@
 		"Glue",
 		"Markdown Extended",
 		"Modific",
+		"Package Control",
 		"Ruby Block Converter",
 		"Sass",
 		"SublimeGit",

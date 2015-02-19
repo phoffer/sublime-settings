@@ -37,8 +37,10 @@
 
   { "keys": ["super+alt+down"], "command": "noop" },
   { "keys": ["ctrl+alt+d"], "command": "goto_definition" },
+  { "keys": ["super+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
   
   { "keys": ["ctrl+alt+s"], "command": "sublimerge"},
   { "keys": ["ctrl+super+d"], "command": "show_diff"},
+
 
 ]
