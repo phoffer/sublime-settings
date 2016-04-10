@@ -1,13 +1,19 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
 		"Alignment",
+		"Case Conversion",
+		"Elixir",
+		"ExportHtml",
 		"GitGutter",
 		"Glue",
+		"knockdown",
 		"Markdown Extended",
+		"MarkdownEditing",
 		"Modific",
 		"Package Control",
 		"Ruby Block Converter",
@@ -15,6 +21,7 @@
 		"SublimeGit",
 		"Sublimerge Pro",
 		"Terminal",
-		"Theme - Spacegray"
+		"Theme - Spacegray",
+		"WakaTime"
 	]
 }

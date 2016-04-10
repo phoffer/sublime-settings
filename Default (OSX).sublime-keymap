@@ -43,4 +43,7 @@
   { "keys": ["ctrl+super+d"], "command": "show_diff"},
 
 
+  // plugin commands
+  { "keys": ["ctrl+alt+c", "ctrl+alt+c"], "command": "convert_to_pascal"}
+
 ]
