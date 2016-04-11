@@ -10,18 +10,22 @@
 		"Elixir",
 		"ExportHtml",
 		"GitGutter",
+		"GitGutter-Edge",
 		"Glue",
 		"knockdown",
 		"Markdown Extended",
 		"MarkdownEditing",
 		"Modific",
+		"Neon Color Scheme",
 		"Package Control",
+		"Perv - Color Scheme",
 		"Ruby Block Converter",
 		"Sass",
 		"SublimeGit",
 		"Sublimerge Pro",
 		"Terminal",
 		"Theme - Spacegray",
-		"WakaTime"
+		"WakaTime",
+		"Varicolor"
 	]
 }
