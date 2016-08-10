@@ -7,6 +7,7 @@
 	[
 		"Alignment",
 		"Case Conversion",
+		"Crystal",
 		"Elixir",
 		"ExportHtml",
 		"GitGutter",
@@ -19,13 +20,17 @@
 		"Neon Color Scheme",
 		"Package Control",
 		"Perv - Color Scheme",
+		"RSpec",
 		"Ruby Block Converter",
+		"Ruby Slim",
 		"Sass",
+		"SCSS",
+		"SelectUntil",
 		"SublimeGit",
 		"Sublimerge Pro",
 		"Terminal",
 		"Theme - Spacegray",
-		"WakaTime",
-		"Varicolor"
+		"Varicolor",
+		"WakaTime"
 	]
 }

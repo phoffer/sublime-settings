@@ -8,6 +8,7 @@
   { "keys": ["f12"], "command": "goto_definition" },
   { "keys": ["super+alt+down"], "command": "goto_definition" },
   { "keys": ["ctrl+alt+d"], "command": "sublimerge"},
+  { "keys": ["super+shift+v"], "command": "paste_and_indent" },
 
   // default ones - CHANGED BELOW
   { "keys": ["super+k", "super+t"], "command": "fold_tag_attributes" },
@@ -21,6 +22,7 @@
   { "keys": ["super+]"], "command": "indent" },
   { "keys": ["super+["], "command": "unindent" },
 
+  { "keys": ["super+v"], "command": "paste_and_indent" },
 
   // custom ones
   { "keys": ["super+k", "super+f"], "command": "fold_tag_attributes" },
@@ -44,6 +46,6 @@
 
 
   // plugin commands
-  { "keys": ["ctrl+alt+c", "ctrl+alt+c"], "command": "convert_to_pascal"}
+  // { "keys": ["ctrl+alt+c", "ctrl+alt+c"], "command": "convert_to_pascal"}
 
 ]

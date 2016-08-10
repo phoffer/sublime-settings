@@ -1,7 +1,21 @@
 {
 	"always_show_minimap_viewport": true,
 	"auto_complete_commit_on_tab": true,
+	"binary_file_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"doc/*",
+		"*.bin",
+		"*.md",
+		"cache/assets/sprockets/*"
+	],
 	"bold_folder_labels": true,
+	"caret_extra_bottom": 3,
+	"caret_extra_top": 3,
+	"caret_style": "wide",
 	"color_scheme": "Packages/User/blue-json.tmTheme",
 	"detect_slow_plugins": false,
 	"draw_minimap_border": true,
@@ -24,13 +38,5 @@
 	"theme": "Spacegray.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": false,
-	"word_wrap": "false",
-	  // Caret
-  "caret_style": "wide",   // "wide" is deprecated starting with ST Build 3057.
-                           // In the future, this line will be replaced with:
-                           //     "caret_style": "solid",
-                           //     "caret_extra_width": 1,
-  // These will work only in ST Build 3057 and later.
-  "caret_extra_top": 3,
-  "caret_extra_bottom": 3,
+	"word_wrap": "false"
 }

@@ -6,9 +6,9 @@
 	"draw_centered": false,
 	"extensions":
 	[
-		"md",
 		"mdown",
 		"txt",
+		"md",
 		"md"
 	],
 	"line_numbers": true,
@@ -38,6 +38,7 @@
 		}
 	},
 	"mde.list_indent_auto_switch_bullet": true,
+	"mde.auto_increment_ordered_list_number": false,
 	"mde.list_indent_bullets":
 	[
 		"*",
@@ -46,5 +47,6 @@
 	],
 	"mde.match_header_hashes": false,
 	"tab_size": 2,
-	"word_wrap": false
+	"word_wrap": true,
+	"wrap_width": 160,
 }
