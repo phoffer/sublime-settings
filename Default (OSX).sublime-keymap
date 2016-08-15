@@ -9,6 +9,7 @@
   { "keys": ["super+alt+down"], "command": "goto_definition" },
   { "keys": ["ctrl+alt+d"], "command": "sublimerge"},
   { "keys": ["super+shift+v"], "command": "paste_and_indent" },
+  { "keys": ["super+u"], "command": "soft_undo" },
 
   // default ones - CHANGED BELOW
   { "keys": ["super+k", "super+t"], "command": "fold_tag_attributes" },
@@ -45,7 +46,11 @@
   { "keys": ["ctrl+super+d"], "command": "show_diff"},
 
 
+
   // plugin commands
   // { "keys": ["ctrl+alt+c", "ctrl+alt+c"], "command": "convert_to_pascal"}
+  // { "keys": ["ctrl+u"], "command": "open_url" }
+  { "keys": ["ctrl+u"], "command": "soft_undo" },
+  { "keys": ["super+u"], "command": "open_url" },
 
 ]
