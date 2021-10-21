@@ -6,12 +6,12 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"Babel",
+		"Better CoffeeScript",
 		"Case Conversion",
 		"Crystal",
 		"Elixir",
 		"ExportHtml",
-		"GitGutter",
-		"GitGutter-Edge",
 		"Glue",
 		"JSX",
 		"knockdown",
@@ -21,18 +21,19 @@
 		"Neon Color Scheme",
 		"Package Control",
 		"Perv - Color Scheme",
-		"React Templates",
+		"Riot Tag",
 		"RSpec",
 		"Ruby Block Converter",
 		"Ruby Slim",
 		"Sass",
+		"ScopeHunter",
 		"SCSS",
 		"SelectUntil",
 		"SublimeGit",
-		"Sublimerge Pro",
+		"Sublimerge 3",
 		"Terminal",
 		"Theme - Spacegray",
 		"Varicolor",
 		"WakaTime"
-	]
+	],
 }

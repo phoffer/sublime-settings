@@ -41,7 +41,7 @@
   { "keys": ["super+alt+down"], "command": "noop" },
   { "keys": ["ctrl+alt+d"], "command": "goto_definition" },
   { "keys": ["super+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
-  
+
   { "keys": ["ctrl+alt+s"], "command": "sublimerge"},
   { "keys": ["ctrl+super+d"], "command": "show_diff"},
 
@@ -49,8 +49,8 @@
 
   // plugin commands
   // { "keys": ["ctrl+alt+c", "ctrl+alt+c"], "command": "convert_to_pascal"}
-  // { "keys": ["ctrl+u"], "command": "open_url" }
-  { "keys": ["ctrl+u"], "command": "soft_undo" },
-  { "keys": ["super+u"], "command": "open_url" },
+  { "keys": ["ctrl+u"], "command": "open_url" }
+  // { "keys": ["ctrl+u"], "command": "soft_undo" },
+  // { "keys": ["super+u"], "command": "open_url" },
 
 ]

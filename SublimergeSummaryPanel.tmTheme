@@ -280,6 +280,105 @@
 		  </dict>
 		</dict>
 
+	
+		<dict>
+			<key>scope</key>
+			<string>sublimerge.diff_block_changed</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FDECAC</string>
+			</dict>
+		</dict>
+
+	
+		<dict>
+			<key>scope</key>
+			<string>sublimerge.diff_block_inserted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#64BF0E</string>
+			</dict>
+		</dict>
+
+	
+		<dict>
+			<key>scope</key>
+			<string>sublimerge.diff_block_deleted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F92672</string>
+			</dict>
+		</dict>
+
+	
+		<dict>
+			<key>scope</key>
+			<string>sublimerge.diff_block_intraline_changed</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FDECAC</string>
+			</dict>
+		</dict>
+
+	
+		<dict>
+			<key>scope</key>
+			<string>sublimerge.diff_block_intraline_inserted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FDECAC</string>
+			</dict>
+		</dict>
+
+	
+		<dict>
+			<key>scope</key>
+			<string>sublimerge.diff_block_intraline_deleted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FDECAC</string>
+			</dict>
+		</dict>
+
+	
+		<dict>
+			<key>scope</key>
+			<string>sublimerge.diff_block_selected</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#75715E</string>
+			</dict>
+		</dict>
+
+	
+		<dict>
+			<key>scope</key>
+			<string>sublimerge.diff_block_missing</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#75715E</string>
+			</dict>
+		</dict>
+
+	
+		<dict>
+			<key>scope</key>
+			<string>sublimerge.diff_block_conflict</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF0000</string>
+			</dict>
+		</dict>
+
 	</array>
 	<key>uuid</key>
 	<string>ec806b54-cac2-3956-94ff-d380fb04327c</string>
